@@ -1,0 +1,18 @@
+message test {
+required INT64 L_ORDERKEY;
+required INT64 L_PARTKEY;           
+required INT64 L_SUPPKEY;           
+required INT64 L_LINENUMBER;        
+required DOUBLE L_QUANTITY;          
+required DOUBLE L_EXTENDEDPRICE;     
+required DOUBLE L_DISCOUNT;          
+required DOUBLE L_TAX;               
+required BINARY L_RETURNFLAG;        
+required BINARY L_LINESTATUS;        
+required BINARY L_SHIPDATE;          
+required BINARY L_COMMITDATE;        
+required BINARY L_RECEIPTDATE;       
+required BINARY L_SHIPINSTRUCT;      
+required BINARY L_SHIPMODE;          
+required BINARY L_COMMENT;
+}
